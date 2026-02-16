@@ -1,0 +1,1613 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+    <!-- IMPORTANT: Remplacez "VOTRE_CODE_ICI" par le code que Google Search Console vous donne -->
+    <meta name="google-site-verification" content="VOTRE_CODE_ICI" />
+    
+    <!-- SEO Optimization -->
+    <title>Aide Enfants Gaza - Don Humanitaire Palestine - Secours Islamique France</title>
+    <meta name="description" content="Initiative citoyenne pour aider les enfants de Gaza. Dons sécurisés via Secours Islamique France. Nourriture, soins médicaux, éducation. Chaque don compte. Agissez maintenant.">
+    <meta name="keywords" content="Gaza, Palestine, enfants Gaza, aide humanitaire Gaza, don Gaza, Secours Islamique France, SIF, crise humanitaire, aide Palestine, solidarité Gaza, urgence Gaza">
+    <meta name="author" content="Initiative Citoyenne Help Child Gaza">
+    <meta name="robots" content="index, follow">
+    <link rel="canonical" href="https://help-child-gaza.netlify.app/">
+    
+    <!-- Open Graph / Facebook -->
+    <meta property="og:type" content="website">
+    <meta property="og:url" content="https://help-child-gaza.netlify.app/">
+    <meta property="og:title" content="Aide aux Enfants de Gaza - Urgence Humanitaire">
+    <meta property="og:description" content="Initiative citoyenne pour aider les enfants de Gaza via Secours Islamique France. Chaque don sauve des vies. Agissez maintenant.">
+    <meta property="og:image" content="https://images.unsplash.com/photo-1488521787991-ed7bbaae773c?q=80&w=1200">
+    
+    <!-- Twitter -->
+    <meta property="twitter:card" content="summary_large_image">
+    <meta property="twitter:url" content="https://help-child-gaza.netlify.app/">
+    <meta property="twitter:title" content="Aide aux Enfants de Gaza - Urgence Humanitaire">
+    <meta property="twitter:description" content="Initiative citoyenne pour aider les enfants de Gaza via Secours Islamique France. Chaque don sauve des vies.">
+    <meta property="twitter:image" content="https://images.unsplash.com/photo-1488521787991-ed7bbaae773c?q=80&w=1200">
+    
+    <!-- Favicon (Dove icon in browser tab) -->
+    <link rel="icon" href="data:image/svg+xml,<svg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 100 100%22><text y=%22.9em%22 font-size=%2290%22>🕊️</text></svg>">
+    
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;600;700;900&family=Source+Sans+3:wght@300;400;600;700&display=swap" rel="stylesheet">
+    <style>
+        :root {
+            --primary: #1B4332;
+            --primary-light: #2D6A4F;
+            --accent: #D4A574;
+            --accent-dark: #B8860B;
+            --bg: #FEFDF8;
+            --bg-secondary: #F5F1E8;
+            --text: #1a1a1a;
+            --text-light: #666666;
+            --white: #ffffff;
+            --shadow: rgba(27, 67, 50, 0.15);
+            --overlay: rgba(0, 0, 0, 0.6);
+        }
+
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: 'Source Sans 3', sans-serif;
+            background: var(--bg);
+            color: var(--text);
+            line-height: 1.7;
+            overflow-x: hidden;
+        }
+
+        h1, h2, h3, h4 {
+            font-family: 'Playfair Display', serif;
+            font-weight: 700;
+            line-height: 1.2;
+        }
+
+        /* Navigation */
+        .nav-wrapper {
+            position: fixed;
+            top: 0;
+            left: 0;
+            right: 0;
+            z-index: 1000;
+            background: rgba(255, 255, 255, 0.98);
+            backdrop-filter: blur(10px);
+            box-shadow: 0 2px 20px rgba(0, 0, 0, 0.08);
+            transition: all 0.3s ease;
+        }
+
+        nav {
+            max-width: 1400px;
+            margin: 0 auto;
+            padding: 1.2rem 2rem;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+
+        .logo {
+            font-size: 1.8rem;
+            font-weight: 900;
+            font-family: 'Playfair Display', serif;
+            color: var(--primary);
+            display: flex;
+            align-items: center;
+            gap: 0.7rem;
+        }
+
+        .logo-icon {
+            width: 50px;
+            height: 50px;
+            background: linear-gradient(135deg, #ffffff 0%, #f0f0f0 100%);
+            border-radius: 50%;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            font-size: 1.8rem;
+            box-shadow: 0 4px 12px rgba(0, 0, 0, 0.15);
+            border: 2px solid rgba(255, 255, 255, 0.3);
+            transition: all 0.3s ease;
+        }
+        
+        .logo-icon:hover {
+            transform: scale(1.1);
+            box-shadow: 0 6px 16px rgba(0, 0, 0, 0.2);
+        }
+
+        .nav-links {
+            display: flex;
+            gap: 2.5rem;
+            align-items: center;
+        }
+
+        .nav-links a {
+            color: var(--text);
+            text-decoration: none;
+            font-weight: 500;
+            transition: color 0.3s ease;
+            position: relative;
+        }
+
+        .nav-links a:hover {
+            color: var(--primary);
+        }
+
+        .nav-links a::after {
+            content: '';
+            position: absolute;
+            bottom: -5px;
+            left: 0;
+            width: 0;
+            height: 2px;
+            background: var(--accent);
+            transition: width 0.3s ease;
+        }
+
+        .nav-links a:hover::after {
+            width: 100%;
+        }
+
+        .cta-nav {
+            background: linear-gradient(135deg, var(--primary) 0%, var(--primary-light) 100%);
+            color: white !important;
+            padding: 0.8rem 1.8rem;
+            border-radius: 50px;
+            font-weight: 600;
+            box-shadow: 0 4px 15px rgba(27, 67, 50, 0.3);
+            transition: all 0.3s ease;
+        }
+
+        .cta-nav:hover {
+            transform: translateY(-2px);
+            box-shadow: 0 6px 20px rgba(27, 67, 50, 0.4);
+        }
+
+        .cta-nav::after {
+            display: none;
+        }
+
+        /* Hero Section with Real Image */
+        .hero {
+            position: relative;
+            height: 100vh;
+            min-height: 700px;
+            display: flex;
+            align-items: center;
+            overflow: hidden;
+            margin-top: 80px;
+        }
+
+        .hero-bg {
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            background: linear-gradient(135deg, rgba(27, 67, 50, 0.85) 0%, rgba(27, 67, 50, 0.7) 100%),
+                        url('https://images.unsplash.com/photo-1488521787991-ed7bbaae773c?q=80&w=2000') center/cover;
+            z-index: 1;
+        }
+
+        .hero-bg::after {
+            content: '';
+            position: absolute;
+            bottom: 0;
+            left: 0;
+            right: 0;
+            height: 200px;
+            background: linear-gradient(to bottom, transparent, var(--bg));
+        }
+
+        .hero-content {
+            position: relative;
+            z-index: 2;
+            max-width: 1400px;
+            margin: 0 auto;
+            padding: 0 2rem;
+            color: white;
+        }
+
+        .hero-badge {
+            display: inline-block;
+            background: rgba(212, 165, 116, 0.2);
+            border: 1px solid rgba(212, 165, 116, 0.4);
+            padding: 0.6rem 1.5rem;
+            border-radius: 50px;
+            font-size: 0.95rem;
+            font-weight: 600;
+            letter-spacing: 0.5px;
+            margin-bottom: 2rem;
+            backdrop-filter: blur(10px);
+            animation: fadeInDown 0.8s ease;
+        }
+
+        @keyframes fadeInDown {
+            from {
+                opacity: 0;
+                transform: translateY(-30px);
+            }
+            to {
+                opacity: 1;
+                transform: translateY(0);
+            }
+        }
+
+        .hero h1 {
+            font-size: clamp(3rem, 6vw, 5.5rem);
+            margin-bottom: 1.5rem;
+            font-weight: 900;
+            line-height: 1.1;
+            animation: fadeInUp 1s ease 0.2s both;
+        }
+
+        @keyframes fadeInUp {
+            from {
+                opacity: 0;
+                transform: translateY(40px);
+            }
+            to {
+                opacity: 1;
+                transform: translateY(0);
+            }
+        }
+
+        .hero-subtitle {
+            font-size: 1.4rem;
+            max-width: 700px;
+            margin-bottom: 3rem;
+            opacity: 0.95;
+            font-weight: 300;
+            line-height: 1.8;
+            animation: fadeInUp 1s ease 0.4s both;
+        }
+
+        .hero-cta {
+            display: flex;
+            gap: 1.5rem;
+            flex-wrap: wrap;
+            animation: fadeInUp 1s ease 0.6s both;
+        }
+
+        .btn-primary {
+            background: var(--accent);
+            color: var(--text);
+            padding: 1.3rem 3rem;
+            border-radius: 50px;
+            text-decoration: none;
+            font-weight: 700;
+            font-size: 1.1rem;
+            transition: all 0.3s ease;
+            box-shadow: 0 6px 25px rgba(212, 165, 116, 0.4);
+            border: none;
+            cursor: pointer;
+            display: inline-flex;
+            align-items: center;
+            gap: 0.7rem;
+        }
+
+        .btn-primary:hover {
+            transform: translateY(-3px);
+            box-shadow: 0 8px 30px rgba(212, 165, 116, 0.5);
+            background: var(--accent-dark);
+            color: white;
+        }
+
+        .btn-secondary {
+            background: rgba(255, 255, 255, 0.15);
+            color: white;
+            padding: 1.3rem 3rem;
+            border-radius: 50px;
+            text-decoration: none;
+            font-weight: 600;
+            font-size: 1.1rem;
+            transition: all 0.3s ease;
+            border: 2px solid rgba(255, 255, 255, 0.3);
+            backdrop-filter: blur(10px);
+        }
+
+        .btn-secondary:hover {
+            background: rgba(255, 255, 255, 0.25);
+            border-color: rgba(255, 255, 255, 0.5);
+            transform: translateY(-3px);
+        }
+
+        /* Urgent Banner */
+        .urgent-banner {
+            background: linear-gradient(135deg, #C41E3A 0%, #8B1A2E 100%);
+            color: white;
+            padding: 1.5rem 2rem;
+            text-align: center;
+            position: relative;
+            overflow: hidden;
+        }
+
+        .urgent-banner::before {
+            content: '';
+            position: absolute;
+            top: 0;
+            left: -100%;
+            width: 100%;
+            height: 100%;
+            background: linear-gradient(90deg, transparent, rgba(255,255,255,0.1), transparent);
+            animation: shimmer 3s infinite;
+        }
+
+        @keyframes shimmer {
+            0% { left: -100%; }
+            100% { left: 100%; }
+        }
+
+        .urgent-banner p {
+            font-size: 1.2rem;
+            font-weight: 600;
+            margin: 0;
+            position: relative;
+            z-index: 1;
+        }
+
+        /* Stats Section */
+        .stats {
+            background: var(--white);
+            padding: 4rem 2rem;
+            box-shadow: 0 -10px 40px rgba(0, 0, 0, 0.05);
+            position: relative;
+            z-index: 10;
+        }
+
+        .stats-container {
+            max-width: 1400px;
+            margin: 0 auto;
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+            gap: 3rem;
+        }
+
+        .stat-item {
+            text-align: center;
+            padding: 2rem;
+        }
+
+        .stat-number {
+            font-size: 4rem;
+            font-weight: 900;
+            font-family: 'Playfair Display', serif;
+            color: var(--primary);
+            display: block;
+            margin-bottom: 0.5rem;
+            line-height: 1;
+        }
+
+        .stat-label {
+            font-size: 1.1rem;
+            color: var(--text-light);
+            font-weight: 600;
+            text-transform: uppercase;
+            letter-spacing: 2px;
+        }
+
+        /* Crisis Section with Images */
+        .crisis {
+            padding: 6rem 2rem;
+            background: var(--bg-secondary);
+        }
+
+        .crisis-container {
+            max-width: 1400px;
+            margin: 0 auto;
+        }
+
+        .section-header {
+            text-align: center;
+            max-width: 800px;
+            margin: 0 auto 4rem;
+        }
+
+        .section-badge {
+            display: inline-block;
+            background: var(--accent);
+            color: var(--text);
+            padding: 0.5rem 1.2rem;
+            border-radius: 50px;
+            font-size: 0.9rem;
+            font-weight: 700;
+            letter-spacing: 1px;
+            text-transform: uppercase;
+            margin-bottom: 1.5rem;
+        }
+
+        .section-header h2 {
+            font-size: clamp(2.5rem, 4vw, 4rem);
+            color: var(--primary);
+            margin-bottom: 1.5rem;
+        }
+
+        .section-header p {
+            font-size: 1.2rem;
+            color: var(--text-light);
+            line-height: 1.8;
+        }
+
+        .crisis-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(350px, 1fr));
+            gap: 2.5rem;
+            margin-top: 4rem;
+        }
+
+        .crisis-card {
+            background: white;
+            border-radius: 20px;
+            overflow: hidden;
+            box-shadow: 0 10px 40px rgba(0, 0, 0, 0.08);
+            transition: all 0.4s ease;
+        }
+
+        .crisis-card:hover {
+            transform: translateY(-10px);
+            box-shadow: 0 20px 60px rgba(0, 0, 0, 0.12);
+        }
+
+        .crisis-card-image {
+            width: 100%;
+            height: 280px;
+            object-fit: cover;
+            transition: transform 0.4s ease;
+        }
+
+        .crisis-card:hover .crisis-card-image {
+            transform: scale(1.05);
+        }
+
+        .crisis-card-content {
+            padding: 2.5rem;
+        }
+
+        .crisis-card h3 {
+            font-size: 1.8rem;
+            color: var(--primary);
+            margin-bottom: 1rem;
+        }
+
+        .crisis-card p {
+            color: var(--text-light);
+            font-size: 1.05rem;
+            line-height: 1.8;
+            margin-bottom: 1.5rem;
+        }
+
+        .crisis-stat {
+            display: flex;
+            align-items: center;
+            gap: 0.7rem;
+            color: var(--primary);
+            font-weight: 700;
+            font-size: 1.1rem;
+        }
+
+        /* Partner Section - Secours Islamique */
+        .partner {
+            padding: 6rem 2rem;
+            background: linear-gradient(135deg, var(--primary) 0%, var(--primary-light) 100%);
+            color: white;
+        }
+
+        .partner-container {
+            max-width: 1200px;
+            margin: 0 auto;
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+            gap: 4rem;
+            align-items: center;
+        }
+
+        .partner-content h2 {
+            font-size: 3rem;
+            margin-bottom: 2rem;
+            color: white;
+        }
+
+        .partner-content p {
+            font-size: 1.15rem;
+            line-height: 1.9;
+            margin-bottom: 1.5rem;
+            opacity: 0.95;
+        }
+
+        .partner-logo-section {
+            background: white;
+            padding: 3rem;
+            border-radius: 20px;
+            text-align: center;
+            box-shadow: 0 20px 60px rgba(0, 0, 0, 0.2);
+        }
+
+        .partner-logo-section h3 {
+            color: var(--primary);
+            font-size: 1.5rem;
+            margin-bottom: 1.5rem;
+        }
+
+        .partner-logo {
+            width: 100%;
+            max-width: 300px;
+            height: auto;
+            margin-bottom: 2rem;
+        }
+
+        .partner-badges {
+            display: grid;
+            grid-template-columns: repeat(2, 1fr);
+            gap: 1.5rem;
+            margin-top: 2rem;
+        }
+
+        .badge-item {
+            background: var(--bg-secondary);
+            padding: 1.5rem;
+            border-radius: 12px;
+            text-align: center;
+        }
+
+        .badge-item-icon {
+            font-size: 2.5rem;
+            margin-bottom: 0.5rem;
+            display: block;
+        }
+
+        .badge-item-text {
+            color: var(--text);
+            font-size: 0.95rem;
+            font-weight: 600;
+        }
+
+        /* Impact Section */
+        .impact {
+            padding: 6rem 2rem;
+            background: var(--bg);
+        }
+
+        .impact-container {
+            max-width: 1400px;
+            margin: 0 auto;
+        }
+
+        .impact-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+            gap: 2.5rem;
+            margin-top: 4rem;
+        }
+
+        .impact-card {
+            background: white;
+            padding: 3rem 2.5rem;
+            border-radius: 20px;
+            text-align: center;
+            box-shadow: 0 10px 30px rgba(0, 0, 0, 0.06);
+            transition: all 0.3s ease;
+            border-top: 4px solid var(--accent);
+        }
+
+        .impact-card:hover {
+            transform: translateY(-8px);
+            box-shadow: 0 15px 50px rgba(0, 0, 0, 0.1);
+        }
+
+        .impact-icon {
+            font-size: 4rem;
+            margin-bottom: 1.5rem;
+            display: block;
+        }
+
+        .impact-amount {
+            font-size: 2.5rem;
+            font-weight: 900;
+            color: var(--primary);
+            margin-bottom: 0.5rem;
+            font-family: 'Playfair Display', serif;
+        }
+
+        .impact-description {
+            color: var(--text-light);
+            font-size: 1.05rem;
+            line-height: 1.7;
+        }
+
+        /* CTA Section */
+        .cta-section {
+            padding: 8rem 2rem;
+            background: linear-gradient(135deg, var(--primary) 0%, var(--primary-light) 100%),
+                        url('https://images.unsplash.com/photo-1469571486292-0ba58a3f068b?q=80&w=2000') center/cover;
+            background-blend-mode: overlay;
+            color: white;
+            text-align: center;
+            position: relative;
+        }
+
+        .cta-section::before {
+            content: '';
+            position: absolute;
+            top: 0;
+            left: 0;
+            right: 0;
+            bottom: 0;
+            background: radial-gradient(circle at center, transparent 0%, rgba(27, 67, 50, 0.5) 100%);
+        }
+
+        .cta-content {
+            position: relative;
+            z-index: 2;
+            max-width: 900px;
+            margin: 0 auto;
+        }
+
+        .cta-content h2 {
+            font-size: clamp(2.5rem, 5vw, 4.5rem);
+            margin-bottom: 2rem;
+            color: white;
+        }
+
+        .cta-content p {
+            font-size: 1.3rem;
+            margin-bottom: 3rem;
+            opacity: 0.95;
+            line-height: 1.8;
+        }
+
+        .cta-buttons {
+            display: flex;
+            gap: 1.5rem;
+            justify-content: center;
+            flex-wrap: wrap;
+        }
+
+        .btn-large {
+            padding: 1.5rem 4rem;
+            font-size: 1.3rem;
+        }
+
+        /* Footer */
+        footer {
+            background: var(--text);
+            color: rgba(255, 255, 255, 0.8);
+            padding: 4rem 2rem 2rem;
+        }
+
+        .footer-container {
+            max-width: 1400px;
+            margin: 0 auto;
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+            gap: 3rem;
+            margin-bottom: 3rem;
+        }
+
+        .footer-section h4 {
+            color: white;
+            font-size: 1.3rem;
+            margin-bottom: 1.5rem;
+        }
+
+        .footer-section p,
+        .footer-section a {
+            color: rgba(255, 255, 255, 0.7);
+            text-decoration: none;
+            display: block;
+            margin-bottom: 0.8rem;
+            line-height: 1.8;
+            transition: color 0.3s ease;
+        }
+
+        .footer-section a:hover {
+            color: var(--accent);
+        }
+
+        .footer-bottom {
+            text-align: center;
+            padding-top: 2rem;
+            border-top: 1px solid rgba(255, 255, 255, 0.1);
+            color: rgba(255, 255, 255, 0.5);
+            font-size: 0.95rem;
+        }
+
+        .social-links {
+            display: flex;
+            gap: 1rem;
+            margin-top: 1rem;
+        }
+
+        .social-links a {
+            width: 45px;
+            height: 45px;
+            background: rgba(255, 255, 255, 0.1);
+            border-radius: 50%;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            font-size: 1.3rem;
+            transition: all 0.3s ease;
+        }
+
+        .social-links a:hover {
+            background: var(--accent);
+            transform: translateY(-3px);
+        }
+
+        /* Responsive */
+        @media (max-width: 1024px) {
+            .partner-container {
+                grid-template-columns: 1fr;
+            }
+
+            .nav-links {
+                display: none;
+            }
+        }
+
+        @media (max-width: 768px) {
+            .hero {
+                height: auto;
+                min-height: 600px;
+                padding: 6rem 0 4rem;
+            }
+
+            .crisis-grid,
+            .impact-grid {
+                grid-template-columns: 1fr;
+            }
+
+            .stats-container {
+                grid-template-columns: 1fr 1fr;
+            }
+        }
+
+        /* Scroll Animations */
+        .fade-in {
+            opacity: 0;
+            transform: translateY(30px);
+            transition: all 0.8s ease;
+        }
+
+        .fade-in.visible {
+            opacity: 1;
+            transform: translateY(0);
+        }
+
+        /* Popup Styles */
+        .popup-overlay {
+            position: fixed;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            background: rgba(0, 0, 0, 0.75);
+            backdrop-filter: blur(5px);
+            z-index: 9999;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            opacity: 0;
+            visibility: hidden;
+            transition: all 0.4s ease;
+        }
+
+        .popup-overlay.active {
+            opacity: 1;
+            visibility: visible;
+        }
+
+        .popup-content {
+            background: white;
+            max-width: 550px;
+            width: 90%;
+            border-radius: 24px;
+            box-shadow: 0 25px 80px rgba(0, 0, 0, 0.4);
+            position: relative;
+            transform: scale(0.8);
+            transition: transform 0.4s ease;
+            overflow: hidden;
+        }
+
+        .popup-overlay.active .popup-content {
+            transform: scale(1);
+            animation: popupBounce 0.6s ease;
+        }
+
+        @keyframes popupBounce {
+            0% { transform: scale(0.8); }
+            50% { transform: scale(1.05); }
+            100% { transform: scale(1); }
+        }
+
+        .popup-header {
+            background: linear-gradient(135deg, #C41E3A 0%, #8B1A2E 100%);
+            color: white;
+            padding: 2rem;
+            text-align: center;
+            position: relative;
+        }
+
+        .popup-header::before {
+            content: '🚨';
+            font-size: 3rem;
+            display: block;
+            margin-bottom: 0.5rem;
+            animation: pulse 1.5s infinite;
+        }
+
+        @keyframes pulse {
+            0%, 100% { transform: scale(1); opacity: 1; }
+            50% { transform: scale(1.1); opacity: 0.8; }
+        }
+
+        .popup-header h2 {
+            font-size: 1.8rem;
+            margin: 0;
+            font-weight: 900;
+            color: white;
+        }
+
+        .popup-body {
+            padding: 2.5rem;
+            text-align: center;
+        }
+
+        .popup-body p {
+            font-size: 1.2rem;
+            color: var(--text);
+            line-height: 1.8;
+            margin-bottom: 2rem;
+        }
+
+        .popup-body strong {
+            color: var(--primary);
+            font-size: 1.3rem;
+        }
+
+        .popup-donate-btn {
+            display: block;
+            width: 100%;
+            background: linear-gradient(135deg, var(--accent) 0%, var(--accent-dark) 100%);
+            color: white;
+            padding: 1.5rem 2rem;
+            border-radius: 16px;
+            text-decoration: none;
+            font-weight: 900;
+            font-size: 1.4rem;
+            text-transform: uppercase;
+            letter-spacing: 1px;
+            box-shadow: 0 8px 25px rgba(212, 165, 116, 0.5);
+            transition: all 0.3s ease;
+            border: none;
+            cursor: pointer;
+            margin-bottom: 1rem;
+        }
+
+        .popup-donate-btn:hover {
+            transform: translateY(-3px);
+            box-shadow: 0 12px 35px rgba(212, 165, 116, 0.6);
+        }
+
+        .popup-close {
+            position: absolute;
+            top: 1rem;
+            right: 1rem;
+            background: rgba(255, 255, 255, 0.2);
+            border: none;
+            color: white;
+            width: 40px;
+            height: 40px;
+            border-radius: 50%;
+            font-size: 1.5rem;
+            cursor: pointer;
+            transition: all 0.3s ease;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            backdrop-filter: blur(10px);
+        }
+
+        .popup-close:hover {
+            background: rgba(255, 255, 255, 0.3);
+            transform: rotate(90deg);
+        }
+
+        .popup-later {
+            color: var(--text-light);
+            font-size: 0.95rem;
+            text-decoration: underline;
+            cursor: pointer;
+            transition: color 0.3s ease;
+        }
+
+        .popup-later:hover {
+            color: var(--primary);
+        }
+
+        .popup-stats {
+            display: flex;
+            justify-content: space-around;
+            margin: 1.5rem 0;
+            padding: 1.5rem;
+            background: var(--bg-secondary);
+            border-radius: 12px;
+        }
+
+        .popup-stat-item {
+            text-align: center;
+        }
+
+        .popup-stat-number {
+            font-size: 2rem;
+            font-weight: 900;
+            color: var(--primary);
+            display: block;
+            font-family: 'Playfair Display', serif;
+        }
+
+        .popup-stat-label {
+            font-size: 0.85rem;
+            color: var(--text-light);
+            text-transform: uppercase;
+            letter-spacing: 0.5px;
+        }
+
+        @media (max-width: 768px) {
+            .popup-content {
+                width: 95%;
+                margin: 1rem;
+            }
+
+            .popup-header h2 {
+                font-size: 1.5rem;
+            }
+
+            .popup-body {
+                padding: 1.5rem;
+            }
+
+            .popup-donate-btn {
+                font-size: 1.2rem;
+                padding: 1.2rem;
+            }
+
+            .popup-stats {
+                flex-direction: column;
+                gap: 1rem;
+            }
+        }
+    </style>
+</head>
+<body>
+    <!-- Popup Donation -->
+    <div class="popup-overlay" id="donationPopup">
+        <div class="popup-content">
+            <div class="popup-header">
+                <button class="popup-close" onclick="closePopup()">✕</button>
+                <h2>URGENCE HUMANITAIRE</h2>
+            </div>
+            <div class="popup-body">
+                <p>
+                    <strong>Plus de 1 million d'enfants</strong> ont besoin d'aide à Gaza.<br>
+                    Votre don peut changer leur vie <strong>aujourd'hui</strong>.
+                </p>
+
+                <div class="popup-stats">
+                    <div class="popup-stat-item">
+                        <span class="popup-stat-number">25€</span>
+                        <span class="popup-stat-label">Nourrit une famille</span>
+                    </div>
+                    <div class="popup-stat-item">
+                        <span class="popup-stat-number">50€</span>
+                        <span class="popup-stat-label">Soins pour 10 enfants</span>
+                    </div>
+                    <div class="popup-stat-item">
+                        <span class="popup-stat-number">100€</span>
+                        <span class="popup-stat-label">Kit d'urgence</span>
+                    </div>
+                </div>
+
+                <a href="https://don.secours-islamique.org/urgence-palestine/~mon-don" 
+                   target="_blank"
+                   class="popup-donate-btn"
+                   onclick="trackDonation('popup'); closePopup();">
+                    ❤️ FAIRE UN DON MAINTENANT
+                </a>
+
+                <p class="popup-later" onclick="closePopup()">
+                    Je vais d'abord découvrir le site
+                </p>
+            </div>
+        </div>
+    </div>
+
+    <!-- Navigation -->
+    <div class="nav-wrapper">
+        <nav>
+            <div class="logo">
+                <div class="logo-icon">🕊️</div>
+                Gaza Solidarité
+            </div>
+            <div class="nav-links">
+                <a href="#initiative">Initiative Citoyenne</a>
+                <a href="#crise">La Crise</a>
+                <a href="#impact">Impact</a>
+                <a href="#partenaire">Pourquoi SIF ?</a>
+                <a href="#don" class="cta-nav">Faire un Don →</a>
+            </div>
+        </nav>
+    </div>
+
+    <!-- Floating Donation Button (Sticky) -->
+    <a href="https://don.secours-islamique.org/urgence-palestine/~mon-don" 
+       target="_blank"
+       onclick="trackDonation('floating-button')"
+       id="floatingDonateBtn"
+       style="position: fixed; bottom: 30px; right: 30px; z-index: 999; background: linear-gradient(135deg, #D4A574 0%, #B8860B 100%); color: white; padding: 1.2rem 2rem; border-radius: 50px; text-decoration: none; font-weight: 700; font-size: 1.1rem; box-shadow: 0 8px 25px rgba(212, 165, 116, 0.5); transition: all 0.3s ease; display: flex; align-items: center; gap: 0.7rem; animation: pulseFloat 2s infinite;"
+       onmouseover="this.style.transform='translateY(-5px) scale(1.05)'; this.style.boxShadow='0 12px 35px rgba(212, 165, 116, 0.6)';"
+       onmouseout="this.style.transform='translateY(0) scale(1)'; this.style.boxShadow='0 8px 25px rgba(212, 165, 116, 0.5)';">
+        <span style="font-size: 1.5rem;">❤️</span>
+        <span>Faire un Don SIF</span>
+    </a>
+
+    <style>
+        @keyframes pulseFloat {
+            0%, 100% { 
+                box-shadow: 0 8px 25px rgba(212, 165, 116, 0.5);
+                transform: translateY(0);
+            }
+            50% { 
+                box-shadow: 0 8px 35px rgba(212, 165, 116, 0.7);
+                transform: translateY(-3px);
+            }
+        }
+        
+        @media (max-width: 768px) {
+            #floatingDonateBtn {
+                bottom: 20px;
+                right: 20px;
+                padding: 1rem 1.5rem;
+                font-size: 0.95rem;
+            }
+            #floatingDonateBtn span:last-child {
+                display: none;
+            }
+            #floatingDonateBtn::after {
+                content: 'Don';
+            }
+        }
+    </style>
+
+    <!-- Hero Section -->
+    <section class="hero">
+        <div class="hero-bg"></div>
+        <div class="hero-content">
+            <div class="hero-badge">🚨 INITIATIVE CITOYENNE - URGENCE HUMANITAIRE</div>
+            <h1>Chaque Don Sauve<br>Une Vie à Gaza</h1>
+            <p class="hero-subtitle">
+                Nous sommes des citoyens choqués par ce qui se passe. Des milliers d'enfants ont besoin d'aide immédiate. 
+                Ensemble, soutenons Secours Islamique France qui agit sur le terrain avec nourriture, soins médicaux et espoir.
+            </p>
+            <div class="hero-cta">
+                <a href="https://don.secours-islamique.org/urgence-palestine/~mon-don" 
+                   target="_blank"
+                   class="btn-primary btn-large"
+                   onclick="trackDonation('hero-one-time')">
+                    Faire un Don Maintenant ❤️
+                </a>
+                <a href="#crise" class="btn-secondary">
+                    En savoir plus
+                </a>
+            </div>
+            <p style="margin-top: 1.5rem; font-size: 1rem; opacity: 0.9;">
+                <a href="https://don.secours-islamique.org/urgence-palestine/~mon-don" 
+                   target="_blank"
+                   style="color: rgba(255,255,255,0.9); text-decoration: underline; font-weight: 600;"
+                   onclick="trackDonation('hero-direct-link')">
+                    → Accéder directement à la page de don du Secours Islamique France
+                </a>
+            </p>
+        </div>
+    </section>
+
+    <!-- Disclaimer Banner -->
+    <div style="background: linear-gradient(135deg, #2D5F5D 0%, #1B4332 100%); color: white; padding: 1.8rem 2rem; text-align: center; border-top: 3px solid var(--accent); border-bottom: 3px solid var(--accent);">
+        <p style="margin: 0; font-size: 1.05rem; line-height: 1.7; max-width: 1200px; margin: 0 auto;">
+            ℹ️ <strong>Initiative Citoyenne Indépendante</strong> — Ce site est créé par des particuliers choqués par la situation humanitaire à Gaza. 
+            Il n'est <strong>pas officiellement affilié ou homologué par Secours Islamique France</strong>. 
+            Notre objectif est de sensibiliser et de faciliter les dons vers cette ONG reconnue qui agit sur le terrain.
+        </p>
+    </div>
+
+    <!-- Quick Access to SIF -->
+    <div style="background: var(--accent); padding: 1.5rem 2rem; text-align: center;">
+        <div style="max-width: 1200px; margin: 0 auto; display: flex; align-items: center; justify-content: center; gap: 2rem; flex-wrap: wrap;">
+            <p style="margin: 0; font-size: 1.1rem; font-weight: 600; color: var(--text);">
+                🎯 Accès direct à la plateforme de don sécurisée :
+            </p>
+            <div style="display: flex; gap: 1rem; flex-wrap: wrap; justify-content: center;">
+                <a href="https://don.secours-islamique.org/urgence-palestine/~mon-don" 
+                   target="_blank"
+                   onclick="trackDonation('quick-access-one-time')"
+                   style="background: var(--primary); color: white; padding: 0.9rem 2rem; border-radius: 50px; text-decoration: none; font-weight: 700; transition: all 0.3s ease; display: inline-block; box-shadow: 0 4px 15px rgba(27, 67, 50, 0.3);"
+                   onmouseover="this.style.transform='translateY(-2px)'; this.style.boxShadow='0 6px 20px rgba(27, 67, 50, 0.4)';"
+                   onmouseout="this.style.transform='translateY(0)'; this.style.boxShadow='0 4px 15px rgba(27, 67, 50, 0.3)';">
+                    💝 Don Unique SIF
+                </a>
+                <a href="https://don.secours-islamique.org/urgence-palestine/~mon-don?frequency=monthly" 
+                   target="_blank"
+                   onclick="trackDonation('quick-access-monthly')"
+                   style="background: white; color: var(--primary); padding: 0.9rem 2rem; border-radius: 50px; text-decoration: none; font-weight: 700; transition: all 0.3s ease; display: inline-block; border: 2px solid var(--primary); box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);"
+                   onmouseover="this.style.transform='translateY(-2px)'; this.style.boxShadow='0 6px 20px rgba(0, 0, 0, 0.15)';"
+                   onmouseout="this.style.transform='translateY(0)'; this.style.boxShadow='0 4px 15px rgba(0, 0, 0, 0.1)';">
+                    🔄 Don Mensuel SIF
+                </a>
+            </div>
+        </div>
+    </div>
+
+    <!-- Urgent Banner -->
+    <div class="urgent-banner">
+        <p>⚠️ Actuellement : Plus de 2 millions de personnes ont un besoin urgent d'aide humanitaire</p>
+    </div>
+
+    <!-- Stats Section -->
+    <section class="stats">
+        <div class="stats-container">
+            <div class="stat-item">
+                <span class="stat-number">2M+</span>
+                <span class="stat-label">Personnes Affectées</span>
+            </div>
+            <div class="stat-item">
+                <span class="stat-number">1M+</span>
+                <span class="stat-label">Enfants en Détresse</span>
+            </div>
+            <div class="stat-item">
+                <span class="stat-number">85%</span>
+                <span class="stat-label">Population Déplacée</span>
+            </div>
+            <div class="stat-item">
+                <span class="stat-number">24/7</span>
+                <span class="stat-label">Action Sur Terrain</span>
+            </div>
+        </div>
+    </section>
+
+    <!-- Citizen Initiative Section -->
+    <section id="initiative" style="padding: 5rem 2rem; background: white;">
+        <div style="max-width: 900px; margin: 0 auto; text-align: center;">
+            <div style="display: inline-block; background: linear-gradient(135deg, var(--primary) 0%, var(--primary-light) 100%); color: white; padding: 0.6rem 1.5rem; border-radius: 50px; font-size: 0.9rem; font-weight: 700; letter-spacing: 1px; text-transform: uppercase; margin-bottom: 2rem;">
+                Qui Sommes-Nous ?
+            </div>
+            <h2 style="font-size: clamp(2.5rem, 4vw, 3.5rem); color: var(--primary); margin-bottom: 2rem; font-family: 'Playfair Display', serif;">
+                Une Initiative de Citoyens Choqués
+            </h2>
+            <div style="text-align: left; font-size: 1.15rem; line-height: 1.9; color: var(--text-light);">
+                <p style="margin-bottom: 1.5rem;">
+                    <strong style="color: var(--primary);">Nous ne sommes pas une ONG.</strong> Nous sommes des citoyens ordinaires — parents, étudiants, professionnels — 
+                    profondément choqués par l'ampleur de la crise humanitaire à Gaza.
+                </p>
+                <p style="margin-bottom: 1.5rem;">
+                    Face aux images insoutenables, aux témoignages bouleversants et à l'urgence de la situation, 
+                    nous ne pouvions pas rester les bras croisés. Nous avons créé cette plateforme pour :
+                </p>
+                <ul style="list-style: none; padding: 0; margin: 2rem 0;">
+                    <li style="margin-bottom: 1.2rem; padding-left: 2rem; position: relative;">
+                        <span style="position: absolute; left: 0; color: var(--accent); font-weight: bold;">✓</span>
+                        <strong>Sensibiliser</strong> le plus grand nombre à la réalité de la crise
+                    </li>
+                    <li style="margin-bottom: 1.2rem; padding-left: 2rem; position: relative;">
+                        <span style="position: absolute; left: 0; color: var(--accent); font-weight: bold;">✓</span>
+                        <strong>Faciliter l'action</strong> en redirigeant vers une ONG de confiance
+                    </li>
+                    <li style="margin-bottom: 1.2rem; padding-left: 2rem; position: relative;">
+                        <span style="position: absolute; left: 0; color: var(--accent); font-weight: bold;">✓</span>
+                        <strong>Mobiliser</strong> notre entourage et au-delà pour faire la différence
+                    </li>
+                </ul>
+                <div style="background: var(--bg-secondary); padding: 2rem; border-radius: 16px; border-left: 5px solid var(--accent); margin: 2.5rem 0;">
+                    <p style="margin: 0; font-size: 1.1rem; color: var(--text);">
+                        <strong style="color: var(--primary);">⚠️ Transparence totale :</strong> 
+                        Ce site n'est <strong>PAS officiellement homologué ou affilié à Secours Islamique France</strong>. 
+                        Nous sommes une initiative citoyenne indépendante. Tous les dons passent directement par la plateforme sécurisée de SIF. 
+                        Nous ne touchons <strong>aucun euro</strong>.
+                    </p>
+                </div>
+                <p style="margin-bottom: 0; font-size: 1.2rem; text-align: center; color: var(--primary); font-weight: 600;">
+                    Notre seul objectif : que chaque personne de bonne volonté puisse contribuer facilement.
+                </p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Crisis Section -->
+    <section class="crisis" id="crise">
+        <div class="crisis-container">
+            <div class="section-header">
+                <span class="section-badge">La Réalité</span>
+                <h2>Une Crise Humanitaire Sans Précédent</h2>
+                <p>
+                    La situation à Gaza nécessite une mobilisation mondiale immédiate. 
+                    Les besoins humanitaires sont critiques et augmentent chaque jour.
+                </p>
+            </div>
+
+            <div class="crisis-grid">
+                <div class="crisis-card fade-in">
+                    <img src="https://images.unsplash.com/photo-1532629345422-7515f3d16bb6?q=80&w=800" 
+                         alt="Aide alimentaire" 
+                         class="crisis-card-image">
+                    <div class="crisis-card-content">
+                        <h3>Crise Alimentaire</h3>
+                        <p>
+                            Des familles entières n'ont pas accès à une alimentation adéquate. 
+                            La malnutrition infantile atteint des niveaux alarmants.
+                        </p>
+                        <div class="crisis-stat">
+                            <span>📊</span>
+                            <span>90% des enfants souffrent de la faim</span>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="crisis-card fade-in">
+                    <img src="https://images.unsplash.com/photo-1576765608535-5f04d1e3f289?q=80&w=800" 
+                         alt="Soins médicaux" 
+                         class="crisis-card-image">
+                    <div class="crisis-card-content">
+                        <h3>Urgence Médicale</h3>
+                        <p>
+                            Les infrastructures médicales sont dévastées. 
+                            Des milliers de personnes nécessitent des soins d'urgence.
+                        </p>
+                        <div class="crisis-stat">
+                            <span>🏥</span>
+                            <span>75% des hôpitaux non fonctionnels</span>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="crisis-card fade-in">
+                    <img src="https://images.unsplash.com/photo-1497486751825-1233686d5d80?q=80&w=800" 
+                         alt="Éducation" 
+                         class="crisis-card-image">
+                    <div class="crisis-card-content">
+                        <h3>Avenir des Enfants</h3>
+                        <p>
+                            L'éducation est interrompue pour des centaines de milliers d'enfants, 
+                            compromettant leur avenir.
+                        </p>
+                        <div class="crisis-stat">
+                            <span>📚</span>
+                            <span>625,000 enfants sans école</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Partner Section - Secours Islamique -->
+    <section class="partner" id="partenaire">
+        <div class="partner-container">
+            <div class="partner-content">
+                <h2>Pourquoi Nous Redirigeons vers Secours Islamique France</h2>
+                <p>
+                    <strong>Nous sommes des citoyens ordinaires</strong>, choqués et touchés par l'ampleur de la crise humanitaire à Gaza. 
+                    Face à l'urgence, nous avons créé cette plateforme pour sensibiliser et faciliter l'action solidaire.
+                </p>
+                <p>
+                    Plutôt que de créer une nouvelle structure, nous avons choisi de rediriger vos dons vers 
+                    <strong>Secours Islamique France (SIF)</strong>, une ONG de solidarité internationale reconnue d'utilité publique depuis 2013. 
+                    Présente dans 27 pays, elle vient en aide aux populations vulnérables sans distinction d'origine, de religion ou de genre.
+                </p>
+                <p>
+                    Sur le terrain à Gaza, SIF déploie des équipes 24h/24 pour :
+                </p>
+                <ul style="list-style: none; padding: 0; margin: 1.5rem 0;">
+                    <li style="margin-bottom: 1rem;">✓ Distribuer de l'aide alimentaire d'urgence</li>
+                    <li style="margin-bottom: 1rem;">✓ Fournir des soins médicaux vitaux</li>
+                    <li style="margin-bottom: 1rem;">✓ Assurer l'accès à l'eau potable</li>
+                    <li style="margin-bottom: 1rem;">✓ Offrir un soutien psychologique aux enfants</li>
+                </ul>
+                <p style="background: rgba(255,255,255,0.15); padding: 1.5rem; border-radius: 12px; border-left: 4px solid var(--accent);">
+                    <strong>⚠️ Important :</strong> Ce site n'est pas officiellement affilié à SIF. 
+                    C'est une initiative citoyenne indépendante. Les dons sont directement collectés par SIF via leur plateforme sécurisée.
+                </p>
+                
+                <a href="https://www.secours-islamique.org/nos-actions/urgence-palestine/" 
+                   target="_blank"
+                   style="display: inline-block; margin-top: 1.5rem; background: var(--accent); color: var(--text); padding: 1.2rem 2.5rem; border-radius: 50px; text-decoration: none; font-weight: 700; font-size: 1.1rem; transition: all 0.3s ease; box-shadow: 0 4px 15px rgba(212, 165, 116, 0.4);"
+                   onmouseover="this.style.transform='translateY(-3px)'; this.style.boxShadow='0 6px 20px rgba(212, 165, 116, 0.5)';"
+                   onmouseout="this.style.transform='translateY(0)'; this.style.boxShadow='0 4px 15px rgba(212, 165, 116, 0.4)';">
+                    🌐 Visiter le site officiel du SIF
+                </a>
+            </div>
+
+            <div class="partner-logo-section">
+                <h3>Organisation Certifiée</h3>
+                <div style="background: var(--primary); color: white; padding: 2rem; border-radius: 12px; margin: 2rem 0;">
+                    <h2 style="margin: 0; color: white;">SECOURS ISLAMIQUE FRANCE</h2>
+                    <p style="margin: 0.5rem 0 0 0; opacity: 0.9;">ONG Humanitaire Internationale</p>
+                </div>
+
+                <div class="partner-badges">
+                    <div class="badge-item">
+                        <span class="badge-item-icon">✓</span>
+                        <span class="badge-item-text">Reconnue d'Utilité Publique</span>
+                    </div>
+                    <div class="badge-item">
+                        <span class="badge-item-icon">🌍</span>
+                        <span class="badge-item-text">Présente dans 27 Pays</span>
+                    </div>
+                    <div class="badge-item">
+                        <span class="badge-item-icon">🏆</span>
+                        <span class="badge-item-text">Certifications Internationales</span>
+                    </div>
+                    <div class="badge-item">
+                        <span class="badge-item-icon">💯</span>
+                        <span class="badge-item-text">Transparence Totale</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Impact Section -->
+    <section class="impact" id="impact">
+        <div class="impact-container">
+            <div class="section-header">
+                <span class="section-badge">Votre Impact</span>
+                <h2>Chaque Euro Compte</h2>
+                <p>
+                    Découvrez l'impact concret de votre générosité. 
+                    Chaque contribution, quelle que soit sa taille, change des vies.
+                </p>
+            </div>
+
+            <div class="impact-grid">
+                <div class="impact-card fade-in">
+                    <span class="impact-icon">🍞</span>
+                    <div class="impact-amount">25€</div>
+                    <p class="impact-description">
+                        Nourrit une famille de 5 personnes pendant une semaine complète
+                    </p>
+                </div>
+
+                <div class="impact-card fade-in">
+                    <span class="impact-icon">💊</span>
+                    <div class="impact-amount">50€</div>
+                    <p class="impact-description">
+                        Fournit des médicaments essentiels pour 10 enfants malades
+                    </p>
+                </div>
+
+                <div class="impact-card fade-in">
+                    <span class="impact-icon">💧</span>
+                    <div class="impact-amount">75€</div>
+                    <p class="impact-description">
+                        Assure l'accès à l'eau potable pour 100 personnes pendant un mois
+                    </p>
+                </div>
+
+                <div class="impact-card fade-in">
+                    <span class="impact-icon">📚</span>
+                    <div class="impact-amount">100€</div>
+                    <p class="impact-description">
+                        Équipe 20 enfants avec fournitures scolaires et soutien éducatif
+                    </p>
+                </div>
+
+                <div class="impact-card fade-in">
+                    <span class="impact-icon">🏥</span>
+                    <div class="impact-amount">150€</div>
+                    <p class="impact-description">
+                        Finance une consultation médicale complète pour 30 personnes
+                    </p>
+                </div>
+
+                <div class="impact-card fade-in">
+                    <span class="impact-icon">🏠</span>
+                    <div class="impact-amount">250€</div>
+                    <p class="impact-description">
+                        Fournit un kit d'abri d'urgence complet pour une famille déplacée
+                    </p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- CTA Section -->
+    <section class="cta-section" id="don">
+        <div class="cta-content">
+            <h2>Agissez Maintenant</h2>
+            <p>
+                Votre générosité peut changer le cours de milliers de vies. 
+                Chaque seconde compte. Faites un don sécurisé via Secours Islamique France.
+            </p>
+            <div class="cta-buttons">
+                <a href="https://don.secours-islamique.org/urgence-palestine/~mon-don" 
+                   target="_blank" 
+                   class="btn-primary btn-large"
+                   onclick="trackDonation('one-time')">
+                    ❤️ Don Ponctuel
+                </a>
+                <a href="https://don.secours-islamique.org/urgence-palestine/~mon-don?frequency=monthly" 
+                   target="_blank" 
+                   class="btn-primary btn-large"
+                   onclick="trackDonation('monthly')"
+                   style="background: var(--primary); color: white;">
+                    🔄 Don Mensuel
+                </a>
+            </div>
+            <p style="margin-top: 2rem; font-size: 1.1rem; opacity: 0.9;">
+                🔒 Paiement 100% sécurisé • Reçu fiscal immédiat • 66% de déduction fiscale
+            </p>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+        <div class="footer-container">
+            <div class="footer-section">
+                <h4>À Propos</h4>
+                <p>
+                    <strong>Initiative citoyenne indépendante</strong> créée par des particuliers choqués par la crise humanitaire à Gaza.
+                </p>
+                <p>
+                    Ce site n'est pas officiellement affilié à Secours Islamique France. 
+                    Notre mission : sensibiliser et faciliter les dons vers cette ONG reconnue qui agit sur le terrain.
+                </p>
+                <div class="social-links">
+                    <a href="#" aria-label="Facebook">📘</a>
+                    <a href="#" aria-label="Twitter">🐦</a>
+                    <a href="#" aria-label="Instagram">📷</a>
+                    <a href="#" aria-label="LinkedIn">💼</a>
+                </div>
+            </div>
+
+            <div class="footer-section">
+                <h4>Notre Partenaire</h4>
+                <a href="https://www.secours-islamique.org" target="_blank">Secours Islamique France</a>
+                <a href="https://www.secours-islamique.org/nos-actions/" target="_blank">Actions sur le terrain</a>
+                <a href="https://www.secours-islamique.org/transparence/" target="_blank">Rapports de transparence</a>
+            </div>
+
+            <div class="footer-section">
+                <h4>Informations</h4>
+                <a href="#initiative">Qui sommes-nous ?</a>
+                <a href="#crise">La crise humanitaire</a>
+                <a href="#impact">Impact de vos dons</a>
+                <a href="#partenaire">Pourquoi SIF ?</a>
+                <a href="#don">Faire un don</a>
+            </div>
+
+            <div class="footer-section">
+                <h4>Contact & Légal</h4>
+                <p><a href="/cdn-cgi/l/email-protection" class="__cf_email__" data-cfemail="3d5e5253495c5e497d5a5c475c4e525154595c4f54495813524f5a">[email&#160;protected]</a></p>
+                <a href="#">Mentions légales</a>
+                <a href="#">Politique de confidentialité</a>
+                <a href="#">CGU</a>
+            </div>
+        </div>
+
+        <div class="footer-bottom">
+            <p>
+                © 2024 Gaza Solidarité - <strong>Initiative Citoyenne Indépendante</strong><br>
+                <strong style="color: var(--accent);">⚠️ Ce site n'est PAS officiellement affilié ou homologué par Secours Islamique France</strong><br>
+                Créé par des particuliers choqués par la situation humanitaire pour sensibiliser et faciliter les dons<br>
+                Les dons sont collectés et gérés directement par <strong>Secours Islamique France</strong> (ONG agréée) via leur plateforme officielle
+            </p>
+        </div>
+    </footer>
+
+    <script data-cfasync="false" src="/cdn-cgi/scripts/5c5dd728/cloudflare-static/email-decode.min.js"></script><script>
+        // ========== POPUP FUNCTIONALITY ==========
+        
+        // Show popup after 5 seconds
+        let popupShown = false;
+        
+        function showPopup() {
+            if (!popupShown && !localStorage.getItem('popupClosed')) {
+                const popup = document.getElementById('donationPopup');
+                popup.classList.add('active');
+                popupShown = true;
+            }
+        }
+        
+        function closePopup() {
+            const popup = document.getElementById('donationPopup');
+            popup.classList.remove('active');
+            // Remember that user closed the popup (won't show again for 24h)
+            localStorage.setItem('popupClosed', Date.now());
+        }
+        
+        // Close popup when clicking outside
+        document.getElementById('donationPopup').addEventListener('click', function(e) {
+            if (e.target === this) {
+                closePopup();
+            }
+        });
+        
+        // Close popup with Escape key
+        document.addEventListener('keydown', function(e) {
+            if (e.key === 'Escape') {
+                closePopup();
+            }
+        });
+        
+        // Check if popup was closed in last 24 hours
+        const popupClosedTime = localStorage.getItem('popupClosed');
+        if (popupClosedTime) {
+            const hoursSinceClosed = (Date.now() - popupClosedTime) / (1000 * 60 * 60);
+            if (hoursSinceClosed > 24) {
+                localStorage.removeItem('popupClosed');
+            }
+        }
+        
+        // Show popup after 5 seconds
+        setTimeout(showPopup, 5000);
+        
+        // ========== END POPUP FUNCTIONALITY ==========
+        
+        // Scroll Animations
+        const observerOptions = {
+            threshold: 0.1,
+            rootMargin: '0px 0px -50px 0px'
+        };
+
+        const observer = new IntersectionObserver((entries) => {
+            entries.forEach(entry => {
+                if (entry.isIntersecting) {
+                    entry.target.classList.add('visible');
+                }
+            });
+        }, observerOptions);
+
+        document.querySelectorAll('.fade-in').forEach(el => {
+            observer.observe(el);
+        });
+
+        // Smooth Scrolling
+        document.querySelectorAll('a[href^="#"]').forEach(anchor => {
+            anchor.addEventListener('click', function (e) {
+                e.preventDefault();
+                const target = document.querySelector(this.getAttribute('href'));
+                if (target) {
+                    target.scrollIntoView({
+                        behavior: 'smooth',
+                        block: 'start'
+                    });
+                }
+            });
+        });
+
+        // Track Donations (pour analytics)
+        function trackDonation(type) {
+            // Vous pouvez ajouter Google Analytics ou autre outil de suivi ici
+            console.log('Don cliqué:', type);
+            
+            // Exemple avec Google Analytics (à configurer)
+            if (typeof gtag !== 'undefined') {
+                gtag('event', 'donation_click', {
+                    'event_category': 'Donation',
+                    'event_label': type,
+                    'value': 1
+                });
+            }
+        }
+
+        // Navigation scroll effect
+        let lastScroll = 0;
+        const nav = document.querySelector('.nav-wrapper');
+
+        window.addEventListener('scroll', () => {
+            const currentScroll = window.pageYOffset;
+            
+            if (currentScroll > 100) {
+                nav.style.boxShadow 
